@@ -21,11 +21,11 @@ from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain_community.chat_models import ChatOpenAI
 
-st.header("VoldeBot")
+st.header("VOLDEBOT")
 
 from PIL import Image
 logo = Image.open("VoldeBot.PNG")
-st.image(logo, width=200)
+st.image(logo, width=300)
 # st.image(logo, use_column_width=True)
 
 # with st.sidebar:
